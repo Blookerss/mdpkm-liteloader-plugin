@@ -1,5 +1,5 @@
 {
-    "id": "mdpkm-example-plugin",
-    "name": "mdpkm Example Plugin",
+    "id": "mdpkm-liteloader-plugin",
+    "name": "LiteLoader for mdpkm",
     "version": "1.0.0"
 }

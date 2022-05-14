@@ -1,10 +1,8 @@
-import CustomLoader from './custom-loader';
+import LiteLoader from './liteloader';
 LocalStrings.setContent({
     en: {
-        'app.mdpkm.common.instances.custom_example': 'Custom Loader',
-
-        'app.plugin.example_plugin.toast.test_message': 'This is a message from the mdpkm Example Plugin!'
+        'app.mdpkm.common.loaders.liteloader': 'LiteLoader'
     }
 });
 
-await API.add('CustomLoader', new CustomLoader());
+await API.add('LiteLoader', new LiteLoader());

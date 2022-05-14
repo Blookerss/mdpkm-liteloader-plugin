@@ -1,0 +1,974 @@
+{
+    "1.12.2": {
+        "id": "1.12.2-LiteLoader1.12.2",
+        "time": "2016-11-01T00:00:00+01:00",
+        "releaseTime": "2016-11-01T00:00:00+01:00",
+        "type": "release",
+        "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker",
+        "libraries": [
+            {
+                "name": "com.mumfrey:liteloader:1.12.2-SNAPSHOT",
+                "url": "https://dl.liteloader.com/versions/"
+            },
+            {
+                "name": "net.minecraft:launchwrapper:1.12"
+            },
+            {
+                "name": "org.ow2.asm:asm-all:5.2",
+                "url": "https://repo.liteloader.com/"
+            }
+        ],
+        "mainClass": "net.minecraft.launchwrapper.Launch",
+        "minimumLauncherVersion": 18,
+        "inheritsFrom": "1.12.2",
+        "jar": "1.12.2"
+    },
+    "1.12.1": {
+        "id": "1.12.1-LiteLoader1.12.1",
+        "time": "2016-11-01T00:00:00+01:00",
+        "releaseTime": "2016-11-01T00:00:00+01:00",
+        "type": "release",
+        "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker",
+        "libraries": [
+            {
+                "name": "com.mumfrey:liteloader:1.12.1-SNAPSHOT",
+                "url": "https://dl.liteloader.com/versions/"
+            },
+            {
+                "name": "net.minecraft:launchwrapper:1.12"
+            },
+            {
+                "name": "org.ow2.asm:asm-all:5.0.3"
+            }
+        ],
+        "mainClass": "net.minecraft.launchwrapper.Launch",
+        "minimumLauncherVersion": 18,
+        "inheritsFrom": "1.12.1",
+        "jar": "1.12.1"
+    },
+    "1.12": {
+        "id": "1.12-LiteLoader1.12",
+        "time": "2016-11-01T00:00:00+01:00",
+        "releaseTime": "2016-11-01T00:00:00+01:00",
+        "type": "release",
+        "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker",
+        "libraries": [
+            {
+                "name": "com.mumfrey:liteloader:1.12-SNAPSHOT",
+                "url": "https://dl.liteloader.com/versions/"
+            },
+            {
+                "name": "net.minecraft:launchwrapper:1.12"
+            },
+            {
+                "name": "org.ow2.asm:asm-all:5.0.3"
+            }
+        ],
+        "mainClass": "net.minecraft.launchwrapper.Launch",
+        "minimumLauncherVersion": 18,
+        "inheritsFrom": "1.12",
+        "jar": "1.12"
+    },
+    "1.11.2": {
+        "id": "1.11.2-LiteLoader1.11.2",
+        "time": "2016-11-01T00:00:00+01:00",
+        "releaseTime": "2016-11-01T00:00:00+01:00",
+        "type": "release",
+        "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker",
+        "libraries": [
+            {
+                "name": "com.mumfrey:liteloader:1.11.2-SNAPSHOT",
+                "url": "https://dl.liteloader.com/versions/"
+            },
+            {
+                "name": "net.minecraft:launchwrapper:1.12"
+            },
+            {
+                "name": "org.ow2.asm:asm-all:5.0.3"
+            }
+        ],
+        "mainClass": "net.minecraft.launchwrapper.Launch",
+        "minimumLauncherVersion": 18,
+        "inheritsFrom": "1.11.2",
+        "jar": "1.11.2"
+    },
+    "1.11": {
+        "id": "1.11-LiteLoader1.11",
+        "time": "2016-11-01T00:00:00+01:00",
+        "releaseTime": "2016-11-01T00:00:00+01:00",
+        "type": "release",
+        "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker",
+        "libraries": [
+            {
+                "name": "com.mumfrey:liteloader:1.11-SNAPSHOT",
+                "url": "https://dl.liteloader.com/versions/"
+            },
+            {
+                "name": "net.minecraft:launchwrapper:1.12"
+            },
+            {
+                "name": "org.ow2.asm:asm-all:5.0.3"
+            }
+        ],
+        "mainClass": "net.minecraft.launchwrapper.Launch",
+        "minimumLauncherVersion": 18,
+        "inheritsFrom": "1.11",
+        "jar": "1.11"
+    },
+    "1.10.2": {
+        "id": "1.10.2-LiteLoader1.10.2",
+        "time": "2016-06-01T00:00:00+01:00",
+        "releaseTime": "2016-06-01T00:00:00+01:00",
+        "type": "release",
+        "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker",
+        "libraries": [
+            {
+                "name": "com.mumfrey:liteloader:1.10.2",
+                "url": "https://dl.liteloader.com/versions/"
+            },
+            {
+                "name": "net.minecraft:launchwrapper:1.12"
+            },
+            {
+                "name": "org.ow2.asm:asm-all:5.0.3"
+            }
+        ],
+        "mainClass": "net.minecraft.launchwrapper.Launch",
+        "minimumLauncherVersion": 18,
+        "inheritsFrom": "1.10.2",
+        "jar": "1.10.2"
+    },
+    "1.10": {
+        "id": "1.10-LiteLoader1.10",
+        "time": "2016-06-01T00:00:00+01:00",
+        "releaseTime": "2016-06-01T00:00:00+01:00",
+        "type": "release",
+        "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker",
+        "libraries": [
+            {
+                "name": "com.mumfrey:liteloader:1.10-SNAPSHOT",
+                "url": "https://dl.liteloader.com/versions/"
+            },
+            {
+                "name": "net.minecraft:launchwrapper:1.12"
+            },
+            {
+                "name": "org.ow2.asm:asm-all:5.0.3"
+            }
+        ],
+        "mainClass": "net.minecraft.launchwrapper.Launch",
+        "minimumLauncherVersion": 18,
+        "inheritsFrom": "1.10",
+        "jar": "1.10"
+    },
+    "1.9.4": {
+        "id": "1.9.4-LiteLoader1.9.4",
+        "time": "2015-07-27T18:29:23+01:00",
+        "releaseTime": "2014-05-14T18:29:23+01:00",
+        "type": "release",
+        "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker",
+        "libraries": [
+            {
+                "name": "com.mumfrey:liteloader:1.9.4",
+                "url": "https://dl.liteloader.com/versions/"
+            },
+            {
+                "name": "net.minecraft:launchwrapper:1.12"
+            },
+            {
+                "name": "org.ow2.asm:asm-all:5.0.3"
+            }
+        ],
+        "mainClass": "net.minecraft.launchwrapper.Launch",
+        "minimumLauncherVersion": 16,
+        "inheritsFrom": "1.9.4",
+        "jar": "1.9.4"
+    },
+    "1.9": {
+        "id": "1.9-LiteLoader1.9",
+        "time": "2015-07-27T18:29:23+01:00",
+        "releaseTime": "2014-05-14T18:29:23+01:00",
+        "type": "release",
+        "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker",
+        "libraries": [
+            {
+                "name": "com.mumfrey:liteloader:1.9-SNAPSHOT",
+                "url": "https://dl.liteloader.com/versions/"
+            },
+            {
+                "name": "net.minecraft:launchwrapper:1.12"
+            },
+            {
+                "name": "org.ow2.asm:asm-all:5.0.3"
+            }
+        ],
+        "mainClass": "net.minecraft.launchwrapper.Launch",
+        "minimumLauncherVersion": 16,
+        "inheritsFrom": "1.9",
+        "jar": "1.9"
+    },
+    "1.8.9": {
+        "id": "1.8.9-LiteLoader1.8.9",
+        "time": "2015-07-27T18:29:23+01:00",
+        "releaseTime": "2014-05-14T18:29:23+01:00",
+        "type": "release",
+        "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker",
+        "libraries": [
+            {
+                "name": "com.mumfrey:liteloader:1.8.9-SNAPSHOT",
+                "url": "https://dl.liteloader.com/versions/"
+            },
+            {
+                "name": "net.minecraft:launchwrapper:1.12"
+            },
+            {
+                "name": "org.ow2.asm:asm-all:5.0.3"
+            }
+        ],
+        "mainClass": "net.minecraft.launchwrapper.Launch",
+        "minimumLauncherVersion": 16,
+        "inheritsFrom": "1.8.9",
+        "jar": "1.8.9"
+    },
+    "1.8": {
+        "id": "1.8-LiteLoader1.8",
+        "time": "2014-05-14T18:29:23+01:00",
+        "releaseTime": "2014-05-14T18:29:23+01:00",
+        "type": "release",
+        "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker",
+        "libraries": [
+            {
+                "name": "com.mumfrey:liteloader:1.8",
+                "url": "https://dl.liteloader.com/versions/"
+            },
+            {
+                "name": "net.minecraft:launchwrapper:1.11"
+            },
+            {
+                "name": "org.ow2.asm:asm-all:5.0.3"
+            }
+        ],
+        "mainClass": "net.minecraft.launchwrapper.Launch",
+        "minimumLauncherVersion": 16,
+        "inheritsFrom": "1.8",
+        "jar": "1.8"
+    },
+    "1.7.10": {
+        "id": "1.7.10-LiteLoader1.7.10",
+        "time": "2014-05-14T18:29:23+01:00",
+        "releaseTime": "2014-05-14T18:29:23+01:00",
+        "type": "release",
+        "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker",
+        "libraries": [
+            {
+                "name": "com.mumfrey:liteloader:1.7.10",
+                "url": "https://dl.liteloader.com/versions/"
+            },
+            {
+                "name": "net.minecraft:launchwrapper:1.11"
+            },
+            {
+                "name": "org.ow2.asm:asm-all:5.0.3"
+            },
+            {
+                "name": "com.google.guava:guava:16.0"
+            }
+        ],
+        "mainClass": "net.minecraft.launchwrapper.Launch",
+        "minimumLauncherVersion": 16,
+        "inheritsFrom": "1.7.10",
+        "jar": "1.7.10"
+    },
+    "1.7.2": {
+        "id": "1.7.2-LiteLoader1.7.2",
+        "time": "2013-10-25T14:00:00+01:00",
+        "releaseTime": "2013-10-25T14:00:00+01:00",
+        "type": "release",
+        "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${game_assets} --uuid ${auth_uuid} --accessToken ${auth_access_token} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker",
+        "libraries": [
+            {
+                "name": "com.mumfrey:liteloader:1.7.2",
+                "url": "https://dl.liteloader.com/versions/"
+            },
+            {
+                "name": "net.minecraft:launchwrapper:1.9"
+            },
+            {
+                "name": "org.ow2.asm:asm-all:4.1"
+            },
+            {
+                "name": "java3d:vecmath:1.3.1"
+            },
+            {
+                "name": "net.sf.trove4j:trove4j:3.0.3"
+            },
+            {
+                "name": "com.ibm.icu:icu4j-core-mojang:51.2"
+            },
+            {
+                "name": "net.sf.jopt-simple:jopt-simple:4.5"
+            },
+            {
+                "name": "com.paulscode:codecjorbis:20101023"
+            },
+            {
+                "name": "com.paulscode:codecwav:20101023"
+            },
+            {
+                "name": "com.paulscode:libraryjavasound:20101123"
+            },
+            {
+                "name": "com.paulscode:librarylwjglopenal:20100824"
+            },
+            {
+                "name": "com.paulscode:soundsystem:20120107"
+            },
+            {
+                "name": "io.netty:netty-all:4.0.10.Final"
+            },
+            {
+                "name": "com.google.guava:guava:15.0"
+            },
+            {
+                "name": "org.apache.commons:commons-lang3:3.1"
+            },
+            {
+                "name": "commons-io:commons-io:2.4"
+            },
+            {
+                "name": "net.java.jinput:jinput:2.0.5"
+            },
+            {
+                "name": "net.java.jutils:jutils:1.0.0"
+            },
+            {
+                "name": "com.google.code.gson:gson:2.2.4"
+            },
+            {
+                "name": "com.mojang:authlib:1.3"
+            },
+            {
+                "name": "org.apache.logging.log4j:log4j-api:2.0-beta9"
+            },
+            {
+                "name": "org.apache.logging.log4j:log4j-core:2.0-beta9"
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl:2.9.0",
+                "rules": [
+                    {
+                        "action": "allow"
+                    },
+                    {
+                        "action": "disallow",
+                        "os": {
+                            "name": "osx"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+                "rules": [
+                    {
+                        "action": "allow"
+                    },
+                    {
+                        "action": "disallow",
+                        "os": {
+                            "name": "osx"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+                "rules": [
+                    {
+                        "action": "allow"
+                    },
+                    {
+                        "action": "disallow",
+                        "os": {
+                            "name": "osx"
+                        }
+                    }
+                ],
+                "natives": {
+                    "linux": "natives-linux",
+                    "windows": "natives-windows"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                }
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl:2.9.1-nightly-20131017",
+                "rules": [
+                    {
+                        "action": "allow",
+                        "os": {
+                            "name": "osx"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.1-nightly-20131017",
+                "rules": [
+                    {
+                        "action": "allow",
+                        "os": {
+                            "name": "osx"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.1-nightly-20131017",
+                "rules": [
+                    {
+                        "action": "allow",
+                        "os": {
+                            "name": "osx"
+                        }
+                    }
+                ],
+                "natives": {
+                    "osx": "natives-osx"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                }
+            },
+            {
+                "name": "net.java.jinput:jinput-platform:2.0.5",
+                "natives": {
+                    "linux": "natives-linux",
+                    "windows": "natives-windows",
+                    "osx": "natives-osx"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                }
+            }
+        ],
+        "mainClass": "net.minecraft.launchwrapper.Launch",
+        "minimumLauncherVersion": 9
+    },
+    "1.6.4": {
+        "id": "LiteLoader1.6.4",
+        "time": "2013-09-19T00:00:00-00:00",
+        "releaseTime": "2013-09-19T00:00:00-00:00",
+        "type": "release",
+        "minecraftArguments": "--username ${auth_player_name} --session ${auth_session} --version ${version_name} --gameDir ${game_directory} --assetsDir ${game_assets} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker",
+        "libraries": [
+            {
+                "name": "com.mumfrey:liteloader:1.6.4",
+                "url": "https://dl.liteloader.com/versions/"
+            },
+            {
+                "name": "net.minecraft:launchwrapper:1.8"
+            },
+            {
+                "name": "lzma:lzma:0.0.1"
+            },
+            {
+                "name": "net.sf.jopt-simple:jopt-simple:4.5"
+            },
+            {
+                "name": "com.paulscode:codecjorbis:20101023"
+            },
+            {
+                "name": "com.paulscode:codecwav:20101023"
+            },
+            {
+                "name": "com.paulscode:libraryjavasound:20101123"
+            },
+            {
+                "name": "com.paulscode:librarylwjglopenal:20100824"
+            },
+            {
+                "name": "com.paulscode:soundsystem:20120107"
+            },
+            {
+                "name": "argo:argo:2.25_fixed"
+            },
+            {
+                "name": "org.bouncycastle:bcprov-jdk15on:1.47"
+            },
+            {
+                "name": "com.google.guava:guava:14.0"
+            },
+            {
+                "name": "org.apache.commons:commons-lang3:3.1"
+            },
+            {
+                "name": "commons-io:commons-io:2.4"
+            },
+            {
+                "name": "net.java.jinput:jinput:2.0.5"
+            },
+            {
+                "name": "net.java.jutils:jutils:1.0.0"
+            },
+            {
+                "name": "com.google.code.gson:gson:2.2.2"
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl:2.9.0",
+                "rules": [
+                    {
+                        "action": "allow"
+                    },
+                    {
+                        "action": "disallow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+                "rules": [
+                    {
+                        "action": "allow"
+                    },
+                    {
+                        "action": "disallow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+                "rules": [
+                    {
+                        "action": "allow"
+                    },
+                    {
+                        "action": "disallow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ],
+                "natives": {
+                    "linux": "natives-linux",
+                    "windows": "natives-windows",
+                    "osx": "natives-osx"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                }
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl:2.9.1-nightly-20130708-debug3",
+                "rules": [
+                    {
+                        "action": "allow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.1-nightly-20130708-debug3",
+                "rules": [
+                    {
+                        "action": "allow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.1-nightly-20130708-debug3",
+                "rules": [
+                    {
+                        "action": "allow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ],
+                "natives": {
+                    "linux": "natives-linux",
+                    "windows": "natives-windows",
+                    "osx": "natives-osx"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                }
+            },
+            {
+                "name": "net.java.jinput:jinput-platform:2.0.5",
+                "natives": {
+                    "linux": "natives-linux",
+                    "windows": "natives-windows",
+                    "osx": "natives-osx"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                }
+            }
+        ],
+        "mainClass": "net.minecraft.launchwrapper.Launch"
+    },
+    "1.6.2": {
+        "id": "LiteLoader1.6.2",
+        "time": "2013-08-05T12:00:00-04:00",
+        "releaseTime": "2013-08-05T12:00:00-04:00",
+        "type": "release",
+        "minecraftArguments": "--username ${auth_player_name} --session ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker",
+        "libraries": [
+            {
+                "name": "com.mumfrey:liteloader:1.6.2",
+                "url": "https://dl.liteloader.com/versions/"
+            },
+            {
+                "name": "net.minecraft:launchwrapper:1.3"
+            },
+            {
+                "name": "lzma:lzma:0.0.1"
+            },
+            {
+                "name": "net.sf.jopt-simple:jopt-simple:4.5"
+            },
+            {
+                "name": "com.paulscode:codecjorbis:20101023"
+            },
+            {
+                "name": "com.paulscode:codecwav:20101023"
+            },
+            {
+                "name": "com.paulscode:libraryjavasound:20101123"
+            },
+            {
+                "name": "com.paulscode:librarylwjglopenal:20100824"
+            },
+            {
+                "name": "com.paulscode:soundsystem:20120107"
+            },
+            {
+                "name": "argo:argo:2.25_fixed"
+            },
+            {
+                "name": "org.bouncycastle:bcprov-jdk15on:1.47"
+            },
+            {
+                "name": "com.google.guava:guava:14.0"
+            },
+            {
+                "name": "org.apache.commons:commons-lang3:3.1"
+            },
+            {
+                "name": "commons-io:commons-io:2.4"
+            },
+            {
+                "name": "net.java.jinput:jinput:2.0.5"
+            },
+            {
+                "name": "net.java.jutils:jutils:1.0.0"
+            },
+            {
+                "name": "com.google.code.gson:gson:2.2.2"
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl:2.9.0",
+                "rules": [
+                    {
+                        "action": "allow"
+                    },
+                    {
+                        "action": "disallow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+                "rules": [
+                    {
+                        "action": "allow"
+                    },
+                    {
+                        "action": "disallow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+                "rules": [
+                    {
+                        "action": "allow"
+                    },
+                    {
+                        "action": "disallow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ],
+                "natives": {
+                    "linux": "natives-linux",
+                    "windows": "natives-windows",
+                    "osx": "natives-osx"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                }
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl:2.9.1-nightly-20130708-debug3",
+                "rules": [
+                    {
+                        "action": "allow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.1-nightly-20130708-debug3",
+                "rules": [
+                    {
+                        "action": "allow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.1-nightly-20130708-debug3",
+                "rules": [
+                    {
+                        "action": "allow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ],
+                "natives": {
+                    "linux": "natives-linux",
+                    "windows": "natives-windows",
+                    "osx": "natives-osx"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                }
+            },
+            {
+                "name": "net.java.jinput:jinput-platform:2.0.5",
+                "natives": {
+                    "linux": "natives-linux",
+                    "windows": "natives-windows",
+                    "osx": "natives-osx"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                }
+            }
+        ],
+        "mainClass": "net.minecraft.launchwrapper.Launch"
+    },
+    "1.5.2": {
+        "id": "LiteLoader1.5.2",
+        "time": "2013-08-06T12:00:00+01:00",
+        "releaseTime": "2013-04-25T16:45:00+01:00",
+        "type": "release",
+        "minecraftArguments": "${auth_player_name} ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker",
+        "libraries": [
+            {
+                "name": "com.mumfrey:liteloader:1.5.2",
+                "url": "https://dl.liteloader.com/versions/"
+            },
+            {
+                "name": "net.minecraft:launchwrapper:1.5"
+            },
+            {
+                "name": "net.sf.jopt-simple:jopt-simple:4.5"
+            },
+            {
+                "name": "org.ow2.asm:asm-all:4.1"
+            },
+            {
+                "name": "net.java.jinput:jinput:2.0.5"
+            },
+            {
+                "name": "net.java.jutils:jutils:1.0.0"
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl:2.9.0",
+                "rules": [
+                    {
+                        "action": "allow"
+                    },
+                    {
+                        "action": "disallow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+                "rules": [
+                    {
+                        "action": "allow"
+                    },
+                    {
+                        "action": "disallow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+                "rules": [
+                    {
+                        "action": "allow"
+                    },
+                    {
+                        "action": "disallow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ],
+                "natives": {
+                    "linux": "natives-linux",
+                    "windows": "natives-windows",
+                    "osx": "natives-osx"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                }
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl:2.9.1-nightly-20130708-debug3",
+                "rules": [
+                    {
+                        "action": "allow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.1-nightly-20130708-debug3",
+                "rules": [
+                    {
+                        "action": "allow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.1-nightly-20130708-debug3",
+                "rules": [
+                    {
+                        "action": "allow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ],
+                "natives": {
+                    "linux": "natives-linux",
+                    "windows": "natives-windows",
+                    "osx": "natives-osx"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                }
+            },
+            {
+                "name": "net.java.jinput:jinput-platform:2.0.5",
+                "natives": {
+                    "linux": "natives-linux",
+                    "windows": "natives-windows",
+                    "osx": "natives-osx"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                }
+            },
+            {
+                "name": "net.java.jinput:jinput-platform:2.0.5",
+                "natives": {
+                    "linux": "natives-linux",
+                    "windows": "natives-windows",
+                    "osx": "natives-osx"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                }
+            }
+        ],
+        "mainClass": "net.minecraft.launchwrapper.Launch",
+        "minimumLauncherVersion": 4
+    }
+}
