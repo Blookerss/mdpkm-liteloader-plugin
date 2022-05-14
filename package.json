@@ -1,4 +1,11 @@
 {
+    "name": "mdpkm-liteloader-plugin",
+    "author": "Blookerss (https://github.com/Blookerss)",
+    "description": "Adds LiteLoader support to mdpkm",
+    "repository": "github:Blookerss/mdpkm-liteloader-plugin",
+    "homepage": "https://github.com/Blookerss/mdpkm-liteloader-plugin#readme",
+    "license": "MIT",
+    "version": "1.0.0",
     "scripts": {
         "build": "webpack"
     },
