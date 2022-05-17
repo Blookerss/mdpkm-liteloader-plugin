@@ -3,6 +3,7 @@ import Manifests from './manifests';
 import IconImage from '../assets/img/icons/liteloader.svg';
 import BannerImage from '../assets/img/banners/liteloader.svg';
 export default class LiteLoader extends PluginSystem {
+    type = 'java-modded';
     constructor() {
         super(Manifest.id);
     }
@@ -10,8 +11,9 @@ export default class LiteLoader extends PluginSystem {
     async init() {
         this.addLoader('liteloader', LocalStrings['app.mdpkm.common.loaders.liteloader'], {
             icon: IconImage,
+            type: this.type,
             banner: BannerImage,
-            description: 'LiteLoader is a lightweight mod loader designed to provide simple,\nhigh-performance and reliable loader functionality.'
+            description: LocalStrings['app.mdpkm.common.loaders.liteloader.summary']
         });
     }
 
